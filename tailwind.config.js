@@ -28,6 +28,10 @@ export default {
           __dirname,
           "./src/assets/hexagons.svg"
         )}')`,
+        cogs: `url('${path.resolve(
+          __dirname,
+          "./src/assets/floating-cogs.svg"
+        )}')`,
       },
       colors: {
         gresini: {

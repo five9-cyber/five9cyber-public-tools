@@ -1,5 +1,4 @@
 /// <reference types="vite/client" />
-type UserNavigation = { name: string; href: string }[];
 
 type SidebarNavigation = {
   name: string;
@@ -19,10 +18,17 @@ type FooterNavigation = {
   icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
 }[];
 
-type TeamList = {
-  id: number;
-  name: string;
-  href: string;
-  initial: string;
-  current: boolean;
-}[];
+type CIDRCalcResults = {
+  cidrRange: string | null;
+  netmask: string | null;
+  wildcardBits: string | null;
+  network: string | null;
+  broadcast: string | null;
+  usableStart: string | null;
+  usableEnd: string | null;
+  usableStartDecimal: number | null;
+  usableEndDecimal: number | null;
+  firstIPDecimal: number | null;
+  lastIPDecimal: number | null;
+  totalHosts: number | null;
+};

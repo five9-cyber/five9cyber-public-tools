@@ -6,15 +6,13 @@ import {
   DialogPanel,
   TransitionChild,
 } from "@headlessui/react";
-import { Cog6ToothIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { XMarkIcon } from "@heroicons/react/24/outline";
 
 export function MobileSidebarPanel({
-  teamList,
   sidebarOpen,
   setSidebarOpen,
   sidebarNavigation,
 }: Readonly<{
-  teamList: TeamList;
   sidebarOpen: boolean;
   sidebarNavigation: SidebarNavigation;
   setSidebarOpen: Dispatch<SetStateAction<boolean>>;
@@ -23,7 +21,7 @@ export function MobileSidebarPanel({
     <Dialog
       open={sidebarOpen}
       onClose={setSidebarOpen}
-      className="relative z-50 lg:hidden"
+      className="relative z-50 sm:hidden"
     >
       <DialogBackdrop
         transition
@@ -89,39 +87,7 @@ export function MobileSidebarPanel({
                     ))}
                   </ul>
                 </li>
-                <li>
-                  <div className="text-xs/6 font-semibold text-gresini-base">
-                    Your teams
-                  </div>
-                  <ul className="-mx-2 mt-2 space-y-1">
-                    {teamList.map((team) => (
-                      <li key={team.name}>
-                        <a
-                          href={team.href}
-                          className={clsx(
-                            team.current
-                              ? "bg-ocean-200 text-gresini-900"
-                              : "text-gresini-base hover:bg-ocean-200 hover:text-gresini-900",
-                            "group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold"
-                          )}
-                        >
-                          <span
-                            className={clsx(
-                              team.current
-                                ? "border-gresini-900 text-gresini-900"
-                                : "border-gresini-900 text-gresini-base group-hover:border-gresini-900 group-hover:text-gresini-900",
-                              "flex size-6 shrink-0 items-center justify-center rounded-lg border bg-ocean-base text-[0.625rem] font-medium"
-                            )}
-                          >
-                            {team.initial}
-                          </span>
-                          <span className="truncate">{team.name}</span>
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </li>
-                <li className="mt-auto">
+                {/* <li className="mt-auto">
                   <a
                     href="/settings"
                     className="group -mx-2 flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gresini-base hover:bg-ocean-200 hover:text-gresini-900"
@@ -132,7 +98,7 @@ export function MobileSidebarPanel({
                     />
                     Settings
                   </a>
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>

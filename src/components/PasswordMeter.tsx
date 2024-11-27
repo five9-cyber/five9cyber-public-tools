@@ -59,16 +59,16 @@ export function PasswordMeter() {
     },
   } = zxcvbn(password);
   const isPasswordEmpty = password.length < 1;
-  const bgTint = isPasswordEmpty ? "bg-white" : bgTintColor(score);
+  const bgTint = isPasswordEmpty ? "bg-sky-50" : bgTintColor(score);
   const nGuesses = formatLargeNumber(guesses);
 
   return (
-    <div className="flex flex-grow items-center w-4/5 sm:w-1/2 m-auto">
+    <div className="flex items-center p-2 sm:w-5/6 sm:m-auto">
       <div>
         <form onSubmit={(e) => e.preventDefault()}>
           <label
             htmlFor="password"
-            className="text-white block text-sm/6 font-medium"
+            className="text-sky-100 block text-sm/6 font-medium"
           >
             Password Strength Meter
           </label>
@@ -78,7 +78,7 @@ export function PasswordMeter() {
               id="password"
               name="password"
               placeholder="enter a password or passhphrase"
-              className="focus:ring-ocean-800 text-ocean-600 placeholder:text-ocean-700 ring-ocean-base/20 block w-full rounded-lg border-0 py-1.5 shadow-sm ring-1 ring-inset focus:ring-2 focus:ring-inset sm:text-sm/6"
+              className="bg-white focus:ring-ocean-800 text-ocean-600 placeholder:text-ocean-700 ring-ocean-base/20 block w-full rounded-lg border-0 py-1.5 shadow-sm ring-1 ring-inset focus:ring-2 focus:ring-inset sm:text-sm/6"
             />
           </div>
         </form>
@@ -186,7 +186,7 @@ export function PasswordMeter() {
             </div>
           </div>
         </div>
-        <div className="text-white mt-10 w-4/5">
+        <div className="text-sky-100 mt-10 mx-6 sm:mx-0 sm:w-4/5">
           <p>
             This password strength meter is designed to provide a visual
             representation of password strength to help users understand the

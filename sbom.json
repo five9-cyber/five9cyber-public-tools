@@ -293,6 +293,11 @@
           "relationship": "direct",
           "scope": "runtime"
         },
+        "pkg:npm/%40types/cookie@0.6.0": {
+          "package_url": "pkg:npm/%40types/cookie@0.6.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
         "pkg:npm/ansi-regex@5.0.1": {
           "package_url": "pkg:npm/ansi-regex@5.0.1",
           "relationship": "direct",
@@ -378,6 +383,11 @@
           "relationship": "direct",
           "scope": "runtime"
         },
+        "pkg:npm/cookie@1.0.2": {
+          "package_url": "pkg:npm/cookie@1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
         "pkg:npm/cross-spawn@7.0.6": {
           "package_url": "pkg:npm/cross-spawn@7.0.6",
           "relationship": "direct",
@@ -425,6 +435,11 @@
         },
         "pkg:npm/fill-range@7.1.1": {
           "package_url": "pkg:npm/fill-range@7.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/five9cyber-tools@0.0.1": {
+          "package_url": "pkg:npm/five9cyber-tools@0.0.1",
           "relationship": "direct",
           "scope": "runtime"
         },
@@ -593,11 +608,6 @@
           "relationship": "direct",
           "scope": "runtime"
         },
-        "pkg:npm/password-strength@0.0.0": {
-          "package_url": "pkg:npm/password-strength@0.0.0",
-          "relationship": "direct",
-          "scope": "runtime"
-        },
         "pkg:npm/path-key@3.1.1": {
           "package_url": "pkg:npm/path-key@3.1.1",
           "relationship": "direct",
@@ -678,6 +688,16 @@
           "relationship": "direct",
           "scope": "runtime"
         },
+        "pkg:npm/react-icons@5.3.0": {
+          "package_url": "pkg:npm/react-icons@5.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/react-router@7.0.1": {
+          "package_url": "pkg:npm/react-router@7.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
         "pkg:npm/react@18.3.1": {
           "package_url": "pkg:npm/react@18.3.1",
           "relationship": "direct",
@@ -710,6 +730,11 @@
         },
         "pkg:npm/scheduler@0.23.2": {
           "package_url": "pkg:npm/scheduler@0.23.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/set-cookie-parser@2.7.1": {
+          "package_url": "pkg:npm/set-cookie-parser@2.7.1",
           "relationship": "direct",
           "scope": "runtime"
         },
@@ -798,6 +823,11 @@
           "relationship": "direct",
           "scope": "runtime"
         },
+        "pkg:npm/turbo-stream@2.4.0": {
+          "package_url": "pkg:npm/turbo-stream@2.4.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
         "pkg:npm/util-deprecate@1.0.2": {
           "package_url": "pkg:npm/util-deprecate@1.0.2",
           "relationship": "direct",
@@ -831,5 +861,5 @@
       }
     }
   },
-  "scanned": "2024-11-26T09:45:19-08:00"
+  "scanned": "2024-11-27T14:07:37-08:00"
 }

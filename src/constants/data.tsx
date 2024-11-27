@@ -1,11 +1,4 @@
-import {
-  CalendarIcon,
-  ChartPieIcon,
-  DocumentDuplicateIcon,
-  FolderIcon,
-  HomeIcon,
-  UsersIcon,
-} from "@heroicons/react/24/outline";
+import { PiShareNetworkDuotone, PiPasswordBold } from "react-icons/pi";
 
 export const header_navigation: HeaderNavigation = [
   { name: "Five9 Cyber", href: "https://five9cyber.com" },
@@ -72,21 +65,16 @@ export const footer_navigation: FooterNavigation = [
 ];
 
 export const sidebar_navigation: SidebarNavigation = [
-  { name: "Dashboard", href: "#", icon: HomeIcon, current: true },
-  { name: "Team", href: "#", icon: UsersIcon, current: false },
-  { name: "Projects", href: "#", icon: FolderIcon, current: false },
-  { name: "Calendar", href: "#", icon: CalendarIcon, current: false },
-  { name: "Documents", href: "#", icon: DocumentDuplicateIcon, current: false },
-  { name: "Reports", href: "#", icon: ChartPieIcon, current: false },
-];
-
-export const team_list: TeamList = [
-  { id: 1, name: "Heroicons", href: "#", initial: "H", current: false },
-  { id: 2, name: "Tailwind Labs", href: "#", initial: "T", current: false },
-  { id: 3, name: "Workcation", href: "#", initial: "W", current: false },
-];
-
-export const user_navigation: UserNavigation = [
-  { name: "Your profile", href: "#" },
-  { name: "Sign out", href: "#" },
+  {
+    name: "CIDR Calculator",
+    href: "/",
+    icon: PiShareNetworkDuotone,
+    current: false,
+  },
+  {
+    name: "Password Strength",
+    href: "/password-strength",
+    icon: PiPasswordBold,
+    current: false,
+  },
 ];
