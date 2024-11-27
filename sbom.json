@@ -1,0 +1,835 @@
+{
+  "version": 0,
+  "job": {},
+  "detector": {
+    "name": "syft",
+    "url": "https://github.com/anchore/syft",
+    "version": "1.17.0"
+  },
+  "manifests": {
+    "node_modules/@esbuild/darwin-arm64/bin/esbuild": {
+      "name": "node_modules/@esbuild/darwin-arm64/bin/esbuild",
+      "file": {
+        "source_location": "node_modules/@esbuild/darwin-arm64/bin/esbuild"
+      },
+      "resolved": {
+        "pkg:golang/github.com/evanw/esbuild@v0.0.0-20240609211631-fc37c2fa9de2": {
+          "package_url": "pkg:golang/github.com/evanw/esbuild@v0.0.0-20240609211631-fc37c2fa9de2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:golang/golang.org/x/sys@v0.0.0-20220715151400-c0bba94af5f8": {
+          "package_url": "pkg:golang/golang.org/x/sys@v0.0.0-20220715151400-c0bba94af5f8",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:golang/github.com/evanw/esbuild@v0.0.0-20240609211631-fc37c2fa9de2"
+          ]
+        },
+        "pkg:golang/stdlib@1.20.12": {
+          "package_url": "pkg:golang/stdlib@1.20.12",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:golang/github.com/evanw/esbuild@v0.0.0-20240609211631-fc37c2fa9de2"
+          ]
+        }
+      }
+    },
+    "node_modules/@tailwindcss/forms/.github/workflows/prepare-release.yml": {
+      "name": "node_modules/@tailwindcss/forms/.github/workflows/prepare-release.yml",
+      "file": {
+        "source_location": "node_modules/@tailwindcss/forms/.github/workflows/prepare-release.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v4": {
+          "package_url": "pkg:github/actions/checkout@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-node@v4": {
+          "package_url": "pkg:github/actions/setup-node@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/softprops/action-gh-release@v1": {
+          "package_url": "pkg:github/softprops/action-gh-release@v1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "node_modules/@tailwindcss/forms/.github/workflows/release-insiders.yml": {
+      "name": "node_modules/@tailwindcss/forms/.github/workflows/release-insiders.yml",
+      "file": {
+        "source_location": "node_modules/@tailwindcss/forms/.github/workflows/release-insiders.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v4": {
+          "package_url": "pkg:github/actions/checkout@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-node@v4": {
+          "package_url": "pkg:github/actions/setup-node@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "node_modules/@tailwindcss/forms/.github/workflows/release.yml": {
+      "name": "node_modules/@tailwindcss/forms/.github/workflows/release.yml",
+      "file": {
+        "source_location": "node_modules/@tailwindcss/forms/.github/workflows/release.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v4": {
+          "package_url": "pkg:github/actions/checkout@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-node@v4": {
+          "package_url": "pkg:github/actions/setup-node@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "node_modules/esbuild/bin/esbuild": {
+      "name": "node_modules/esbuild/bin/esbuild",
+      "file": {
+        "source_location": "node_modules/esbuild/bin/esbuild"
+      },
+      "resolved": {
+        "pkg:golang/github.com/evanw/esbuild@v0.0.0-20240609211631-fc37c2fa9de2": {
+          "package_url": "pkg:golang/github.com/evanw/esbuild@v0.0.0-20240609211631-fc37c2fa9de2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:golang/golang.org/x/sys@v0.0.0-20220715151400-c0bba94af5f8": {
+          "package_url": "pkg:golang/golang.org/x/sys@v0.0.0-20220715151400-c0bba94af5f8",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:golang/github.com/evanw/esbuild@v0.0.0-20240609211631-fc37c2fa9de2"
+          ]
+        },
+        "pkg:golang/stdlib@1.20.12": {
+          "package_url": "pkg:golang/stdlib@1.20.12",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:golang/github.com/evanw/esbuild@v0.0.0-20240609211631-fc37c2fa9de2"
+          ]
+        }
+      }
+    },
+    "node_modules/fastq/.github/workflows/ci.yml": {
+      "name": "node_modules/fastq/.github/workflows/ci.yml",
+      "file": {
+        "source_location": "node_modules/fastq/.github/workflows/ci.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-node@v1": {
+          "package_url": "pkg:github/actions/setup-node@v1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-node@v3": {
+          "package_url": "pkg:github/actions/setup-node@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "package-lock.json": {
+      "name": "package-lock.json",
+      "file": {
+        "source_location": "package-lock.json"
+      },
+      "resolved": {
+        "pkg:npm/%40alloc/quick-lru@5.2.0": {
+          "package_url": "pkg:npm/%40alloc/quick-lru@5.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40floating-ui/core@1.6.8": {
+          "package_url": "pkg:npm/%40floating-ui/core@1.6.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40floating-ui/dom@1.6.12": {
+          "package_url": "pkg:npm/%40floating-ui/dom@1.6.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40floating-ui/react-dom@2.1.2": {
+          "package_url": "pkg:npm/%40floating-ui/react-dom@2.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40floating-ui/react@0.26.28": {
+          "package_url": "pkg:npm/%40floating-ui/react@0.26.28",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40floating-ui/utils@0.2.8": {
+          "package_url": "pkg:npm/%40floating-ui/utils@0.2.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40headlessui/react@2.2.0": {
+          "package_url": "pkg:npm/%40headlessui/react@2.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40heroicons/react@2.2.0": {
+          "package_url": "pkg:npm/%40heroicons/react@2.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40isaacs/cliui@8.0.2": {
+          "package_url": "pkg:npm/%40isaacs/cliui@8.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40jridgewell/gen-mapping@0.3.5": {
+          "package_url": "pkg:npm/%40jridgewell/gen-mapping@0.3.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40jridgewell/resolve-uri@3.1.2": {
+          "package_url": "pkg:npm/%40jridgewell/resolve-uri@3.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40jridgewell/set-array@1.2.1": {
+          "package_url": "pkg:npm/%40jridgewell/set-array@1.2.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40jridgewell/sourcemap-codec@1.5.0": {
+          "package_url": "pkg:npm/%40jridgewell/sourcemap-codec@1.5.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40jridgewell/trace-mapping@0.3.25": {
+          "package_url": "pkg:npm/%40jridgewell/trace-mapping@0.3.25",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40nodelib/fs.scandir@2.1.5": {
+          "package_url": "pkg:npm/%40nodelib/fs.scandir@2.1.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40nodelib/fs.stat@2.0.5": {
+          "package_url": "pkg:npm/%40nodelib/fs.stat@2.0.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40nodelib/fs.walk@1.2.8": {
+          "package_url": "pkg:npm/%40nodelib/fs.walk@1.2.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40pkgjs/parseargs@0.11.0": {
+          "package_url": "pkg:npm/%40pkgjs/parseargs@0.11.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40react-aria/focus@3.19.0": {
+          "package_url": "pkg:npm/%40react-aria/focus@3.19.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40react-aria/interactions@3.22.5": {
+          "package_url": "pkg:npm/%40react-aria/interactions@3.22.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40react-aria/ssr@3.9.7": {
+          "package_url": "pkg:npm/%40react-aria/ssr@3.9.7",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40react-aria/utils@3.26.0": {
+          "package_url": "pkg:npm/%40react-aria/utils@3.26.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40react-stately/utils@3.10.5": {
+          "package_url": "pkg:npm/%40react-stately/utils@3.10.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40react-types/shared@3.26.0": {
+          "package_url": "pkg:npm/%40react-types/shared@3.26.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40swc/helpers@0.5.15": {
+          "package_url": "pkg:npm/%40swc/helpers@0.5.15",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40tailwindcss/forms@0.5.9": {
+          "package_url": "pkg:npm/%40tailwindcss/forms@0.5.9",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40tanstack/react-virtual@3.10.9": {
+          "package_url": "pkg:npm/%40tanstack/react-virtual@3.10.9",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/%40tanstack/virtual-core@3.10.9": {
+          "package_url": "pkg:npm/%40tanstack/virtual-core@3.10.9",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ansi-regex@5.0.1": {
+          "package_url": "pkg:npm/ansi-regex@5.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ansi-regex@6.1.0": {
+          "package_url": "pkg:npm/ansi-regex@6.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ansi-styles@4.3.0": {
+          "package_url": "pkg:npm/ansi-styles@4.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ansi-styles@6.2.1": {
+          "package_url": "pkg:npm/ansi-styles@6.2.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/any-promise@1.3.0": {
+          "package_url": "pkg:npm/any-promise@1.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/anymatch@3.1.3": {
+          "package_url": "pkg:npm/anymatch@3.1.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/arg@5.0.2": {
+          "package_url": "pkg:npm/arg@5.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/balanced-match@1.0.2": {
+          "package_url": "pkg:npm/balanced-match@1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/binary-extensions@2.3.0": {
+          "package_url": "pkg:npm/binary-extensions@2.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/brace-expansion@2.0.1": {
+          "package_url": "pkg:npm/brace-expansion@2.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/braces@3.0.3": {
+          "package_url": "pkg:npm/braces@3.0.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/camelcase-css@2.0.1": {
+          "package_url": "pkg:npm/camelcase-css@2.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/chokidar@3.6.0": {
+          "package_url": "pkg:npm/chokidar@3.6.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/clsx@2.1.1": {
+          "package_url": "pkg:npm/clsx@2.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/color-convert@2.0.1": {
+          "package_url": "pkg:npm/color-convert@2.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/color-name@1.1.4": {
+          "package_url": "pkg:npm/color-name@1.1.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/commander@4.1.1": {
+          "package_url": "pkg:npm/commander@4.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/cross-spawn@7.0.6": {
+          "package_url": "pkg:npm/cross-spawn@7.0.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/cssesc@3.0.0": {
+          "package_url": "pkg:npm/cssesc@3.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/didyoumean@1.2.2": {
+          "package_url": "pkg:npm/didyoumean@1.2.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/dlv@1.1.3": {
+          "package_url": "pkg:npm/dlv@1.1.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/eastasianwidth@0.2.0": {
+          "package_url": "pkg:npm/eastasianwidth@0.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/emoji-regex@8.0.0": {
+          "package_url": "pkg:npm/emoji-regex@8.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/emoji-regex@9.2.2": {
+          "package_url": "pkg:npm/emoji-regex@9.2.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/fast-glob@3.3.2": {
+          "package_url": "pkg:npm/fast-glob@3.3.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/fastq@1.17.1": {
+          "package_url": "pkg:npm/fastq@1.17.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/fill-range@7.1.1": {
+          "package_url": "pkg:npm/fill-range@7.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/foreground-child@3.3.0": {
+          "package_url": "pkg:npm/foreground-child@3.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/fsevents@2.3.3": {
+          "package_url": "pkg:npm/fsevents@2.3.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/function-bind@1.1.2": {
+          "package_url": "pkg:npm/function-bind@1.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/glob-parent@5.1.2": {
+          "package_url": "pkg:npm/glob-parent@5.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/glob-parent@6.0.2": {
+          "package_url": "pkg:npm/glob-parent@6.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/glob@10.4.5": {
+          "package_url": "pkg:npm/glob@10.4.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/hasown@2.0.2": {
+          "package_url": "pkg:npm/hasown@2.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-binary-path@2.1.0": {
+          "package_url": "pkg:npm/is-binary-path@2.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-core-module@2.15.1": {
+          "package_url": "pkg:npm/is-core-module@2.15.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-extglob@2.1.1": {
+          "package_url": "pkg:npm/is-extglob@2.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-fullwidth-code-point@3.0.0": {
+          "package_url": "pkg:npm/is-fullwidth-code-point@3.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-glob@4.0.3": {
+          "package_url": "pkg:npm/is-glob@4.0.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-number@7.0.0": {
+          "package_url": "pkg:npm/is-number@7.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/isexe@2.0.0": {
+          "package_url": "pkg:npm/isexe@2.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/jackspeak@3.4.3": {
+          "package_url": "pkg:npm/jackspeak@3.4.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/jiti@1.21.6": {
+          "package_url": "pkg:npm/jiti@1.21.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/js-tokens@4.0.0": {
+          "package_url": "pkg:npm/js-tokens@4.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/lilconfig@2.1.0": {
+          "package_url": "pkg:npm/lilconfig@2.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/lilconfig@3.1.2": {
+          "package_url": "pkg:npm/lilconfig@3.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/lines-and-columns@1.2.4": {
+          "package_url": "pkg:npm/lines-and-columns@1.2.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/loose-envify@1.4.0": {
+          "package_url": "pkg:npm/loose-envify@1.4.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/lru-cache@10.4.3": {
+          "package_url": "pkg:npm/lru-cache@10.4.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/merge2@1.4.1": {
+          "package_url": "pkg:npm/merge2@1.4.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/micromatch@4.0.8": {
+          "package_url": "pkg:npm/micromatch@4.0.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mini-svg-data-uri@1.4.4": {
+          "package_url": "pkg:npm/mini-svg-data-uri@1.4.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/minimatch@9.0.5": {
+          "package_url": "pkg:npm/minimatch@9.0.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/minipass@7.1.2": {
+          "package_url": "pkg:npm/minipass@7.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mz@2.7.0": {
+          "package_url": "pkg:npm/mz@2.7.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/nanoid@3.3.7": {
+          "package_url": "pkg:npm/nanoid@3.3.7",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/normalize-path@3.0.0": {
+          "package_url": "pkg:npm/normalize-path@3.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/object-assign@4.1.1": {
+          "package_url": "pkg:npm/object-assign@4.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/object-hash@3.0.0": {
+          "package_url": "pkg:npm/object-hash@3.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/package-json-from-dist@1.0.1": {
+          "package_url": "pkg:npm/package-json-from-dist@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/password-strength@0.0.0": {
+          "package_url": "pkg:npm/password-strength@0.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/path-key@3.1.1": {
+          "package_url": "pkg:npm/path-key@3.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/path-parse@1.0.7": {
+          "package_url": "pkg:npm/path-parse@1.0.7",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/path-scurry@1.11.1": {
+          "package_url": "pkg:npm/path-scurry@1.11.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/picocolors@1.1.1": {
+          "package_url": "pkg:npm/picocolors@1.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/picomatch@2.3.1": {
+          "package_url": "pkg:npm/picomatch@2.3.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/pify@2.3.0": {
+          "package_url": "pkg:npm/pify@2.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/pirates@4.0.6": {
+          "package_url": "pkg:npm/pirates@4.0.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/postcss-import@15.1.0": {
+          "package_url": "pkg:npm/postcss-import@15.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/postcss-js@4.0.1": {
+          "package_url": "pkg:npm/postcss-js@4.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/postcss-load-config@4.0.2": {
+          "package_url": "pkg:npm/postcss-load-config@4.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/postcss-nested@6.2.0": {
+          "package_url": "pkg:npm/postcss-nested@6.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/postcss-selector-parser@6.1.2": {
+          "package_url": "pkg:npm/postcss-selector-parser@6.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/postcss-value-parser@4.2.0": {
+          "package_url": "pkg:npm/postcss-value-parser@4.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/postcss@8.4.49": {
+          "package_url": "pkg:npm/postcss@8.4.49",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/queue-microtask@1.2.3": {
+          "package_url": "pkg:npm/queue-microtask@1.2.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/react-dom@18.3.1": {
+          "package_url": "pkg:npm/react-dom@18.3.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/react@18.3.1": {
+          "package_url": "pkg:npm/react@18.3.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/read-cache@1.0.0": {
+          "package_url": "pkg:npm/read-cache@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/readdirp@3.6.0": {
+          "package_url": "pkg:npm/readdirp@3.6.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/resolve@1.22.8": {
+          "package_url": "pkg:npm/resolve@1.22.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/reusify@1.0.4": {
+          "package_url": "pkg:npm/reusify@1.0.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/run-parallel@1.2.0": {
+          "package_url": "pkg:npm/run-parallel@1.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/scheduler@0.23.2": {
+          "package_url": "pkg:npm/scheduler@0.23.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/shebang-command@2.0.0": {
+          "package_url": "pkg:npm/shebang-command@2.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/shebang-regex@3.0.0": {
+          "package_url": "pkg:npm/shebang-regex@3.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/signal-exit@4.1.0": {
+          "package_url": "pkg:npm/signal-exit@4.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/source-map-js@1.2.1": {
+          "package_url": "pkg:npm/source-map-js@1.2.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/string-width@4.2.3": {
+          "package_url": "pkg:npm/string-width@4.2.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/string-width@5.1.2": {
+          "package_url": "pkg:npm/string-width@5.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/strip-ansi@6.0.1": {
+          "package_url": "pkg:npm/strip-ansi@6.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/strip-ansi@7.1.0": {
+          "package_url": "pkg:npm/strip-ansi@7.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/sucrase@3.35.0": {
+          "package_url": "pkg:npm/sucrase@3.35.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/supports-preserve-symlinks-flag@1.0.0": {
+          "package_url": "pkg:npm/supports-preserve-symlinks-flag@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/tabbable@6.2.0": {
+          "package_url": "pkg:npm/tabbable@6.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/tailwindcss@3.4.15": {
+          "package_url": "pkg:npm/tailwindcss@3.4.15",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/thenify-all@1.6.0": {
+          "package_url": "pkg:npm/thenify-all@1.6.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/thenify@3.3.1": {
+          "package_url": "pkg:npm/thenify@3.3.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/to-regex-range@5.0.1": {
+          "package_url": "pkg:npm/to-regex-range@5.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ts-interface-checker@0.1.13": {
+          "package_url": "pkg:npm/ts-interface-checker@0.1.13",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/tslib@2.8.1": {
+          "package_url": "pkg:npm/tslib@2.8.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/util-deprecate@1.0.2": {
+          "package_url": "pkg:npm/util-deprecate@1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/which@2.0.2": {
+          "package_url": "pkg:npm/which@2.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/wrap-ansi@7.0.0": {
+          "package_url": "pkg:npm/wrap-ansi@7.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/wrap-ansi@8.1.0": {
+          "package_url": "pkg:npm/wrap-ansi@8.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/yaml@2.6.1": {
+          "package_url": "pkg:npm/yaml@2.6.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/zxcvbn@4.4.2": {
+          "package_url": "pkg:npm/zxcvbn@4.4.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    }
+  },
+  "scanned": "2024-11-26T09:45:19-08:00"
+}
